@@ -1,0 +1,78 @@
+        public enum Weapons : uint
+        {
+            Hud0 = 0x00,
+            Hud1 = 0x01,
+            Hud3 = 0x02,
+            Utils1 = 0x03,
+            Utils2 = 0x04,
+            Utils3 = 0x05,
+            RightHand = 0x06,
+            Belt = 0x07,
+            LeftHand = 0x08,
+            Deck1 = 0x09,
+            Deck2 = 0x0A,
+            Deck3 = 0x0B,
+            Deck4 = 0x0C,
+            Deck5 = 0x0D,
+            Deck6 = 0x0E,
+            Hud2 = 0x0F,
+            Hud4 = 0x10
+        }
+
+        public enum Armor : uint
+        {
+            Neck = 0x11,
+            Head = 0x12,
+            Back = 0x13,
+            RightShoulder = 0x14,
+            Chest = 0x15,
+            LeftShoulder = 0x16,
+            RightArm = 0x17,
+            Gloves = 0x18,
+            LeftArm = 0x19,
+            RightWrist = 0x1A,
+            Legs = 0x1B,
+            LeftWrist = 0x1C,
+            RightFinger = 0x1D,
+            Feet = 0x1E,
+            LeftFinger = 0x1F,
+            LeftLeftFinger = 0x20
+        }
+
+        public enum Implants : uint
+        {
+            Eye = 0x21,
+            Brain = 0x22,
+            Ear = 0x23,
+            RightArm = 0x24,
+            Chest = 0x25,
+            LeftArm = 0x26,
+            RightWrist = 0x27,
+            Waist = 0x28,
+            LeftWrist = 0x29,
+            RightHand = 0x2A,
+            Thigh = 0x2B,
+            LeftHand = 0x2C,
+            Feet = 0x2D,
+            LeftFeet = 0x2E,
+            RightFeet = 0x2F
+        }
+
+        public enum Social : uint
+        {
+            Neck = 0x31,
+            Head = 0x32,
+            Back = 0x33,
+            RightShoulder = 0x34,
+            Chest = 0x35,
+            LeftShoulder = 0x36,
+            RightArm = 0x37,
+            Gloves = 0x38,
+            LeftArm = 0x39,
+            RightWrist = 0x3A,
+            Legs = 0x3B,
+            LeftWrist = 0x3C,
+            RightHand = 0x3D,
+            Feet = 0x3E,
+            LeftHand = 0x3F
+        }
